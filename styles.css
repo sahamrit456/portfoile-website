@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+    color: #fcfdff;
+    margin: 0;
+    padding: 0;
+    text-align: ; /*center-aligns text and content*/
+  }
+  
+  .profile-container{
+    display: inline-block;
+    text-align: center;
+  }
+  .profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fcfdff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header {
+    background-color: #0270ff00;
+    padding: 1%; 
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  footer {
+    padding: 15px 0; /*adjust padding for footer*/
+  }
+  .social-icons img {
+    width: 40px; /*adjust size of social media icons*/
+    margin: 0 15px; /*adjust margin between social media icons*/
+  }
+
+  .social-icons a {
+    display: inline-block;
+    justify-content: center;
+  }
+  h2 {
+    font-size: ;
+    color: #45f306;
+  }
